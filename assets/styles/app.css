@@ -148,7 +148,7 @@ a {
   cursor: pointer;
   outline: 0;
 }
-hover
+
 a:hover,
 a:focus {
   color: inherit;
@@ -2115,7 +2115,7 @@ a.list-group-item.hover {
 }
 
 .indigo {
-  background-color: #114658;
+  background-color: #3f51b5;
 }
 
 .indigo-50 {
@@ -3160,7 +3160,7 @@ a.list-group-item.hover {
 .md-input:focus,
 .md-input.focus {
   padding-bottom: 1px;
-  border-color: #429094;
+  border-color: #3f51b5;
   border-bottom-width: 2px;
 }
 
@@ -3168,7 +3168,7 @@ a.list-group-item.hover {
 .md-input.focus ~ label {
   top: 0 !important;
   font-size: 0.85em !important;
-  color: #429094;
+  color: #3f51b5;
   opacity: 1;
 }
 

@@ -36,7 +36,7 @@
                 <nav ui-nav>
                   <ul class="nav">
                     <li class="nav-header m-v-sm hidden-folded">
-                      UI Kits
+                      Menu
                     </li>
                     <li>
                       <a md-ink-ripple>
@@ -384,7 +384,7 @@
       <div class="pull-right" ui-view="navbar@"></div>
       <!-- / -->
       <!-- Search form -->
-      <div id="search" class="pos-abt w-full h-full blue hide">
+      <div id="search" class="pos-abt w-full h-full red hide">
         <div class="box">
           <div class="box-col w-56 text-center">
             <!-- hide search form -->
@@ -392,7 +392,7 @@
           </div>
           <div class="box-col v-m">
             <!-- bind to app.search.content -->
-            <input class="form-control input-lg no-bg no-border" placeholder="Search" ng-model="app.search.content">
+            <input class="form-control input-lg no-bg no-border" placeholder="Cari" ng-model="app.search.content">
           </div>
           <div class="box-col w-56 text-center">
             <a md-ink-ripple class="navbar-item inline"><i class="mdi-av-mic i-24"></i></a>
