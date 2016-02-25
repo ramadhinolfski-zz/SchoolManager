@@ -2,7 +2,7 @@ LUX Development
 ===============
 
 # About
-LUX `School Management System ver 0.0.1`.
+LUX `School Management System ver 0.0.1`, is an application that built for school needs.
 All pages and features are on development and not recommended for use.
 
 * Based on Codeigniter 3.
