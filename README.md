@@ -36,13 +36,13 @@ Guest's feature:
 
 # Credit
 
-Made by `LUX Development` from [In-Fine-IT](linuxmannote.wordpress.com).
+Made by `LUX Development` from [In-Fine-IT](http://linuxmannote.wordpress.com).
 Supported by:
 
-1.	[Codeigniter](elislab.com)
+1.	[Codeigniter](http://elislab.com)
 1.	[Materil Team](#Materil)
-1.	[Arch Linux](archlinux.org)
-1.	[Sublime](sublime.com)
+1.	[Arch Linux](http://archlinux.org)
+1.	[Sublime](http://sublime.com)
 
 # License
 
