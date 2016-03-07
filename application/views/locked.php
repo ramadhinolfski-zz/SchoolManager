@@ -1,7 +1,5 @@
 <div class="app">
-  
-
-	<div class="modal-over indigo">
+  	<div class="modal-over indigo">
 	  <div class="modal-center text-center animated fadeInUp" style="width:240px;margin:-120px 0 0 -120px;">
 	    <div class="m-b">
 	      <img src="<?php echo base_url('assets'); ?>/images/a0.jpg" class="w-64 circle">
