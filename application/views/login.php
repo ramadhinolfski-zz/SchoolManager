@@ -1,3 +1,5 @@
+<?php include "layout/header.php"?>
+
 <div class="app indigo-50">
   <div class="center-block w-xxl w-auto-xs p-v-md">
     <div class="navbar">

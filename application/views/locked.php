@@ -1,3 +1,4 @@
+<?php include "layout/header.php" ?>
 <div class="app">
   	<div class="modal-over indigo">
 	  <div class="modal-center text-center animated fadeInUp" style="width:240px;margin:-120px 0 0 -120px;">
