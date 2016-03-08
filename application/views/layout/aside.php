@@ -12,7 +12,7 @@
                   <path d="M 50 0 L 8 80 L 0 14 Z" fill="rgba(220, 220, 220, 0.6)"></path>
                 </svg>
               <img src="<?php echo base_url();?>assets/images/logo.png" alt="." style="max-height: 36px; display:none">
-              <span class="hidden-folded m-l inline">Admin</span>
+              <span class="hidden-folded m-l inline">Admin Panel</span>
             </a>
             <!-- / brand -->
         </div>
@@ -35,265 +35,137 @@
               <div id="nav">
                 <nav ui-nav>
                   <ul class="nav">
-                    <li class="nav-header m-v-sm hidden-folded">
-                      Menu
+                  <!-- Beranda -->
+                    <li>
+                      <a md-ink-ripple href="home">
+                        <i class="icon mdi-action-home i-20"></i>
+                        <span class="font-normal">Beranda</span>
+                      </a>
                     </li>
+                  <!-- Data Siswa -->
                     <li>
                       <a md-ink-ripple>
                         <span class="pull-right text-muted">
-                          <i class="fa fa-caret-down"></i>
+                        <i class="fa fa-caret-down"></i>
                         </span>
-                        <i class="pull-right up"><b class="badge no-bg">2</b></i>
-                        <i class="icon mdi-action-settings-input-svideo i-20"></i>
-                        <span class="font-normal">Dashboard</span>
+                        <i class="icon mdi-social-group i-20">
+                        </i>
+                        <span class="font-normal">
+                          Data Siswa
+                        </span>
                       </a>
                       <ul class="nav nav-sub">
                         <li>
-                          <a md-ink-ripple href="index.html">Dashboard</a>
+                          <a md-ink-ripple href="absensiswa">Absensi</a>
                         </li>
                         <li>
-                          <a md-ink-ripple href="dashboard.analysis.html">Analysis</a>
+                            <a md-ink-ripple href="uts">Nilai UTS</a>
                         </li>
                         <li>
-                          <a md-ink-ripple href="dashboard.wall.html">Wall</a>
+                            <a md-ink-ripple href="uas">Nilai UAS</a>
+                        </li>
+                        <li>
+                            <a md-ink-ripple href="raport">Nilai Raport</a>
                         </li>
                       </ul>
                     </li>
+                      <!-- Data Pengajar -->
                     <li>
                       <a md-ink-ripple>
                         <span class="pull-right text-muted">
-                          <i class="fa fa-caret-down"></i>
+                        <i class="fa fa-caret-down"></i>
                         </span>
-                        <i class="icon mdi-action-subject i-20"></i>
-                        <span class="font-normal">Components</span>
+                        <i class="icon mdi-social-school i-20">
+                        </i>
+                        <span class="font-normal">
+                          Data Pengajar
+                        </span>
                       </a>
                       <ul class="nav nav-sub">
                         <li>
-                          <a md-ink-ripple href="ui.component.arrow.html">Arrow</a>
+                          <a md-ink-ripple href="tatausaha">Absensi</a>
                         </li>
                         <li>
-                          <a md-ink-ripple href="ui.component.badge-label.html">Badge &amp; Label</a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="ui.component.button.html">Button</a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="ui.component.color.html">Color</a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="ui.component.grid.html">Grid</a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="ui.component.icon.html">Icon</a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="ui.component.list.html">List Group</a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="ui.component.nav.html">Nav</a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="ui.component.progressbar.html">Progressbar</a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="ui.component.streamline.html">Streamline</a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="ui.component.timeline.html">Timeline</a>
+                          <a md-ink-ripple href="sarpras">Jadwal Mengajar</a>
                         </li>
                       </ul>
                     </li>
+                    <!-- Data Kepegawaian -->
+                    <li>
+                      <a md-ink-ripple href="#">
+                        <span class="pull-right text-muted">
+                        <i class="fa fa-caret-down"></i>
+                        </span>
+                        <i class="icon mdi-action-work i-20">
+                        </i>
+                        <span class="font-normal">
+                          Data Kepegawaian
+                        </span>
+                      </a>
+                      <ul class="nav nav-sub">
+                        <li>
+                          <a md-ink-ripple href="tatausaha">Absensi</a>
+                        </li>
+                        <li>
+                          <a md-ink-ripple href="sarpras">Sub Divisi</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- Data Sarpras -->
                     <li>
                       <a md-ink-ripple>
                         <span class="pull-right text-muted">
-                          <i class="fa fa-caret-down"></i>
+                        <i class="fa fa-caret-down"></i>
                         </span>
-                        <i class="pull-right up"><b class="badge bg-success">14</b></i>
-                        <i class="icon mdi-image-flash-on i-20"></i>
-                        <span class="font-normal">Material</span>
+                        <i class="icon mdi-communication-business i-20">
+                        </i>
+                        <span class="font-normal">
+                        Sarana Prasarana
+                        </span>
                       </a>
                       <ul class="nav nav-sub">
                         <li>
-                          <a md-ink-ripple href="ui.material.button.html">Button</a>
+                          <a md-ink-ripple href="tatausaha">Peta Lokasi</a>
                         </li>
                         <li>
-                          <a md-ink-ripple href="ui.material.icon.html">Icon</a>
+                          <a md-ink-ripple href="sarpras">Inventaris Ruangan</a>
                         </li>
                         <li>
-                          <a md-ink-ripple href="ui.material.color.html">Color</a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="ui.material.card.html">Card</a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="ui.material.form.html">Form</a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="ui.material.list.html">List</a>
+                          <a md-ink-ripple href="sarpras">Alat &amp; Bahan</a>
                         </li>
                       </ul>
                     </li>
+                    <!-- Aplikasi -->
                     <li>
                       <a md-ink-ripple>
                         <span class="pull-right text-muted">
-                          <i class="fa fa-caret-down"></i>
+                        <i class="fa fa-caret-down"></i>
                         </span>
-                        <i class="icon mdi-toggle-radio-button-on i-20"></i>
-                        <span class="font-normal">Form</span>
+                        <i class="icon mdi-notification-tap-and-play i-20">
+                        </i>
+                        <span class="font-normal">
+                        Aplikasi
+                        </span>
                       </a>
                       <ul class="nav nav-sub">
                         <li>
-                          <a md-ink-ripple href="ui.form.layout.html">Form Layout</a>
+                          <a md-ink-ripple href="tatausaha">SMS Broadcast</a>
                         </li>
                         <li>
-                          <a md-ink-ripple href="ui.form.element.html">Form Element</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a md-ink-ripple>
-                        <span class="pull-right text-muted">
-                          <i class="fa fa-caret-down"></i>
-                        </span>
-                        <i class="icon mdi-editor-format-list-bulleted i-20"></i>
-                        <span class="font-normal">Table</span>
-                      </a>
-                      <ul class="nav nav-sub">
-                        <li>
-                          <a md-ink-ripple href="ui.table.static.html">Static table</a>
+                          <a md-ink-ripple href="sarpras">Internal Mail</a>
                         </li>
                         <li>
-                          <a md-ink-ripple href="ui.table.datatable.html">Datatable</a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="ui.table.footable.html">Footable</a>
+                          <a md-ink-ripple href="sarpras">Surat</a>
                         </li>
                       </ul>
                     </li>
-                    <li>
-                      <a md-ink-ripple href="ui.chart.html">
-                        <i class="pull-right up"><b class="label bg-info">NEW</b></i> 
-                        <i class="icon mdi-device-multitrack-audio i-20"></i>
-                        <span class="font-normal">Charts</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a md-ink-ripple>
-                        <span class="pull-right text-muted">
-                          <i class="fa fa-caret-down"></i>
-                        </span>
-                        <i class="icon mdi-maps-navigation i-20"></i>
-                        <span class="font-normal">Maps</span>
-                      </a>
-                      <ul class="nav nav-sub">
-                        <li>
-                          <a md-ink-ripple href="ui.map.vector.html">Vector Map</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a md-ink-ripple>
-                        <span class="pull-right text-muted">
-                          <i class="fa fa-caret-down"></i>
-                        </span>
-                        <i class="icon mdi-editor-insert-drive-file i-20"></i>
-                        <span class="font-normal">Pages</span>
-                      </a>
-                      <ul class="nav nav-sub">
-                        <li>
-                          <a md-ink-ripple href="page.profile.html">
-                            <span>Profile</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="page.settings.html">
-                            <span>Settings</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="page.blank.html">
-                            <span>Blank</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="signin.html">
-                            <span>Sign In</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="signup.html">
-                            <span>Sign Up</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="forgot-password.html">
-                            <span>Forgot Password</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="lockme.html">
-                            <span>Lockme Screen</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="404.html">
-                            <span>Error 404</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a md-ink-ripple href="505.html">
-                            <span>Error 505</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a md-ink-ripple href>
-                        <span class="pull-right text-muted">
-                          <i class="fa fa-caret-down"></i>
-                        </span>
-                        <i class="icon mdi-content-sort i-20"></i>
-                        <span>Menu</span>
-                      </a>
-                      <ul class="nav nav-sub">
-                        <li><a md-ink-ripple href>Menu levels 1</a></li>
-                        <li>
-                          <a md-ink-ripple href>
-                            <span class="pull-right text-muted">
-                              <i class="fa fa-caret-down"></i>
-                            </span>
-                            <span class="font-normal">Menu levels 2</span>
-                          </a>
-                          <ul class="nav nav-sub">
-                            <li>
-                              <a md-ink-ripple href>Menu levels 2.1</a>
-                            </li>
-                            <li>
-                              <a md-ink-ripple href>Menu levels 2.2</a>
-                            </li>
-                          </ul>          
-                        </li>        
-                      </ul>
-                    </li>
-                    <li class="b-b b m-v-sm"></li>
-                    <li>
-                      <a md-ink-ripple ui-toggle-class="hide, show" target="#nav, #account">
-                        <span>Settings</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a md-ink-ripple href="page.document.html">
-                        <span>Document</span>
-                      </a>
-                    </li>
-                    <li class="m-b-sm">
-                      <a md-ink-ripple href="../angular">
-                        <span>Angular Version</span>
-                      </a>
-                    </li>
+
+
                   </ul>
                 </nav>
               </div>
+
+              <!-- Akun -->
               <div id="account" class="hide m-v-xs">
                 <nav>
                   <ul class="nav">
@@ -331,12 +203,13 @@
             </div>
           </div>
         </div>
+        <!-- Help -->
         <nav>
           <ul class="nav b-t b">
             <li>
-              <a href="http://themeforest.net/item/materil-responsive-admin-dashboard-template/11062969" target="_blank" md-ink-ripple>
+              <a href="http://linuxmannote.wordpress.com" target="_blank" md-ink-ripple>
                 <i class="icon mdi-action-help i-20"></i>
-                <span>Help &amp; Feedback</span>
+                <span>Bantuan</span>
               </a>
             </li>
           </ul>
@@ -368,6 +241,7 @@
             <i class="mdi-social-person-outline i-24"></i>
           </a>
         </li>
+        <!-- Menu Pojok Atas -->
         <li class="dropdown">
           <a md-ink-ripple data-toggle="dropdown">
             <i class="mdi-navigation-more-vert i-24"></i>
@@ -380,6 +254,7 @@
             <li><a href>Help &amp; feedback</a></li>
           </ul>
         </li>
+        <!-- Menu Pojok Atas / -->
       </ul>
       <div class="pull-right" ui-view="navbar@"></div>
       <!-- / -->
@@ -401,8 +276,3 @@
       </div>
       <!-- / -->
     </div>
-    <!-- Content -->
-
-      <div class="box-row">
-        <div class="box-cell">
-          <div class="box-inner padding">
