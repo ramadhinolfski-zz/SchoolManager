@@ -56,6 +56,9 @@
                       </a>
                       <ul class="nav nav-sub">
                         <li>
+                          <a md-ink-ripple href="daftarSiswa">Daftar Siswa</a>
+                        </li>
+                        <li>
                           <a md-ink-ripple href="absensiswa">Absensi</a>
                         </li>
                         <li>
