@@ -5,19 +5,27 @@
 <div class="box-inner padding">
 <div class="col-xs-12">
 
-<div class="md-whiteframe-z0 bg-white">
-	<ul class="nav nav-tabs nav-md nav-lines b-info">
-		<li class="active">
-			<a href="#daftar" data-toggle="tab">Daftar</a>
-		</li>
-		<li>
-			<a href="#tambahBaru" data-toggle="tab">Tambah Baru</a>
-		</li>
-		<li>
-			<a href="#pengaturan" data-toggle="tab">Pengaturan</a>
-		</li>
-	</ul>
-</div>
+	<div class="md-whiteframe-z0 bg-white">
+	<!-- menu -->
+		<ul class="nav nav-tabs nav-md nav-lines b-info">
+			<li>
+				<a href data-toggle="tab" data-target="#tambahBaru"><i class="mdi-content-add"></i></a>
+			</li>
+			<li class="active">
+				<a href data-toggle="tab" data-target="#daftar">Daftar</a>
+			</li>
+			<li>
+				<a href data-toggle="tab" data-target="#pengaturan">Pengaturan</a>
+			</li>
+		</ul>
+	<!-- content -->
+		<div class="tab-content p m-b-md b-t b-t-2x">
+			<div class="tab-pane animated fadeIn" role="tabpanel" id="tambahBaru">Tambah Data</div>
+			<div class="tab-pane active animated fadeIn" role="tabpanel" id="daftar">Daftar Data</div>
+			<div class="tab-pane animated fadeIn" role="tabpanel" id="pengaturan">pengaturan</div>
+		</div>
+
+	</div>
 
 </div>
 </div>
