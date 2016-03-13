@@ -832,7 +832,7 @@ sup {
 }
 
 .form-control {
-  border-color: #cfd1d4;
+  border-color: #AFAFD8;
   border-radius: 0;
 }
 
@@ -843,7 +843,7 @@ sup {
 }
 
 .form-control:focus {
-  border-color: #a7abaf;
+  border-color: #5A4FF7;
 }
 
 .form-control-spin {
@@ -3160,7 +3160,7 @@ a.list-group-item.hover {
 .md-input:focus,
 .md-input.focus {
   padding-bottom: 1px;
-  border-color: #2c3e50;
+  border-color: #314E6B;
   border-bottom-width: 2px;
 }
 

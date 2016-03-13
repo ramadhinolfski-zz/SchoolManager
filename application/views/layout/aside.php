@@ -235,7 +235,7 @@
       <!-- Common tools -->
       <ul class="nav nav-sm navbar-tool pull-right">
         <li>
-          <a md-ink-ripple data-toggle="modal" data-target="#user">
+          <a md-ink-ripple href="page">
             <i class="mdi-social-person-outline i-24"></i>
           </a>
         </li>
