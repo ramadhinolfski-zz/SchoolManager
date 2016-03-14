@@ -165,7 +165,7 @@
 							</a>
 							<!--start submenu -->
 							<ul>
-								<li><a href="<?php echo base_url(); ?>/html/pages/404.html" class="active"><span class="title">404 page</span></a></li>
+								<li><a href="<?php echo base_url(); ?>/html/pages/404.html"><span class="title">404 page</span></a></li>
 								<li><a href="<?php echo base_url(); ?>/html/pages/500.html" ><span class="title">500 page</span></a></li>
 							</ul><!--end /submenu -->
 						</li><!--end /menu-li -->
