@@ -9,7 +9,7 @@
 					<li class="header-nav-brand" >
 						<div class="brand-holder">
 							<a href="<?php echo base_url(); ?>/html/dashboards/dashboard.html">
-								<span class="text-lg text-bold text-primary">MATERIAL ADMIN</span>
+								<span class="text-lg text-bold text-primary">INFORMATION SYSTEM</span>
 							</a>
 						</div>
 					</li>
@@ -98,7 +98,7 @@
 						<a href="javascript:void(0);" class="dropdown-toggle ink-reaction" data-toggle="dropdown">
 							<img src="<?php echo base_url(); ?>/assets/img/avatar1.jpg?1403934956" alt="" />
 							<span class="profile-info">
-								Daniel Johnson
+								Ramadhinolfski
 								<small>Administrator</small>
 							</span>
 						</a>
