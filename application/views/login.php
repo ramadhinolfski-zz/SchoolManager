@@ -1,57 +1,108 @@
-<section class="section-account">
-<div class="img-backdrop" style="background-image: url('<?php echo base_url('assets/img/login.jpg'); ?>')"></div>
-<div class="spacer"></div>
-<div class="card contain-sm style-transparent">
-<div class="card-body">
-	<div class="row">
-		<div class="col-sm-6">
-			<br/>
-			<span class="text-lg text-bold text-primary">SCHOOL MANAGER</span>
-			<br/><br/>
-			<form class="form floating-label" action="../../html/dashboards/dashboard.html" accept-charset="utf-8" method="post">
-				<div class="form-group">
-					<input type="text" class="form-control" id="username" name="username">
-					<label for="username">Username</label>
+<!-- BEGIN HEADER-->
+<header id="header" >
+	<div class="headerbar">
+		<!-- header aja -->
+		<div class="headerbar-left">
+			<ul class="header-nav header-nav-options">
+				<li class="header-nav-brand" >
+					<div class="brand-holder">
+						<a href="<?php echo base_url(); ?>/html/dashboards/dashboard.html">
+							<span class="text-lg text-bold text-primary">INFORMATION SYSTEM</span> <i class="fa fa-gears"></i>
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>
+<!-- END HEADER-->
+<!-- BEGIN CONTENT -->
+<div id="content">
+	<section>
+		<div class="section-body contain-sm">
+			<div class="col-sm-3"></div>
+			<div class="card card-underline col-sm-6">
+				<div class="card-head  tabs-primary-dark">
+					<ul class="nav nav-tabs tabs-center" data-toggle="tabs">
+						<li class="active"><a href="#login">LOGIN</a></li>
+						<li><a href="#signup">sign up</a></li>
+						<li><a href="#help"><i class="md md-help"></i></a></li>
+					</ul>
 				</div>
-				<div class="form-group">
-					<input type="password" class="form-control" id="password" name="password">
-					<label for="password">Password</label>
-					<p class="help-block"><a href="#">Forgotten?</a></p>
+				<div class="card-body tab-content">
+					<!-- login form -->
+					<div class="tab-pane active" id="login">
+						<form action="#" class="form col-md-12 floating-label" role="form">
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa-lg"></i></span>
+									<div class="input-group-content">
+										<input type="text" class="form-control" id="amount1">
+										<label for="amount1">username</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg"></i></span>
+									<div class="input-group-content">
+										<input type="password" class="form-control" id="amount2">
+										<label for="amount2">password</label>
+										<p class="help-block"><a href="#">Forgotten?</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="form-group" align="right">
+								<button type="button" class="btn ink-reaction btn-raised btn-primary">login <i class="fa fa-send fa-fw"></i></button>
+							</div>
+						</form>
+					</div>
+					<!-- Signup form -->
+					<div class="tab-pane" id="signup">
+						<form action="#" class="form col-md-12 floating-label" role="form">
+							<div class="form-group">
+								<div class="input-group col-sm-12">
+									<div class="input-group-content">
+											<input type="text" class="form-control" id="amount3">
+											<label for="amount3">Full Name</label>
+
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group col-sm-12">
+									<div class="input-group-content">
+										<input type="text" class="form-control" id="amount2" required="">
+										<label for="amount2">User Name</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group col-sm-12">
+									<div class="input-group-content">
+										<input type="password" class="form-control" id="amount3" required="">
+										<label for="amount2">Password</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<select id="select" name="select" class="form-control" required>
+									<option value="">&nbsp;</option>
+									<option value="40">Pegawai</option>
+									<option value="50">Pelajar</option>
+									<option value="30">Pengajar</option>
+								</select>
+								<label for="select">Status</label>
+							</div>
+							<div class="form-group" align="right">
+								<button type="button" class="btn ink-reaction btn-raised btn-primary">Register <i class="fa fa-user fa-fw"></i></button>
+							</div>
+						</form>
+					</div>
+					<!-- Help and Support -->
+					<div class="tab-pane" id="help">This is help area, where you will found the instruction about login or sign up. This feature will available when the login and sign in page are available.</div>
 				</div>
-				<br/>
-				<div class="row">
-					<div class="col-xs-6 text-left">
-						<div class="checkbox checkbox-inline checkbox-styled">
-							<label>
-								<input type="checkbox"> <span>Remember me</span>
-							</label>
-						</div>
-					</div><!--end .col -->
-					<div class="col-xs-6 text-right">
-						<button class="btn btn-primary btn-raised" type="submit">Login</button>
-					</div><!--end .col -->
-				</div><!--end .row -->
-			</form>
-		</div><!--end .col -->
-		<div class="col-sm-5 col-sm-offset-1 text-center">
-			<br><br>
-				<h3 class="text-light">
-					No account yet?
-				</h3>
-				<a class="btn btn-block btn-raised btn-primary" href="#">Sign up here</a>
-				<br><br>
-					<h3 class="text-light">
-						or
-					</h3>
-					<p>
-						<a href="#" class="btn btn-block btn-raised btn-info"><i class="fa fa-facebook pull-left"></i>Login with Facebook</a>
-					</p>
-					<p>
-						<a href="#" class="btn btn-block btn-raised btn-info"><i class="fa fa-twitter pull-left"></i>Login with Twitter</a>
-					</p>
-				</div><!--end .col -->
-			</div><!--end .row -->
-		</div><!--end .card-body -->
-	</div><!--end .card -->
-</section>
-<!-- END LOGIN SECTION -->
+			</div>
+		</div>
+	</section>
+</div>
