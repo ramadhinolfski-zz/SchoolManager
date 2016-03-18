@@ -6,7 +6,7 @@
 			<ul class="header-nav header-nav-options">
 				<li class="header-nav-brand" >
 					<div class="brand-holder">
-						<a href="<?php echo base_url(); ?>/html/dashboards/dashboard.html">
+						<a href="<?php echo base_url(); ?>login">
 							<span class="text-lg text-bold text-primary">INFORMATION SYSTEM</span> <i class="fa fa-gears"></i>
 						</a>
 					</div>
