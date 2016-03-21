@@ -21,7 +21,7 @@
 				<li class="tile">
 					<a class="tile-content ink-reaction" href="#offcanvas-chat" data-toggle="offcanvas" data-backdrop="false">
 						<div class="tile-icon">
-							<img src="<?php echo base_url(); ?>/assets/img/avatar4.jpg?1404026791" alt="" />
+							<img src="<?php echo base_url(); ?>assets/img/avatar4.jpg?1404026791" alt="" />
 						</div>
 						<div class="tile-text">
 							Alex Nelson
@@ -32,7 +32,7 @@
 				<li class="tile">
 					<a class="tile-content ink-reaction" href="#offcanvas-chat" data-toggle="offcanvas" data-backdrop="false">
 						<div class="tile-icon">
-							<img src="<?php echo base_url(); ?>/assets/img/avatar9.jpg?1404026744" alt="" />
+							<img src="<?php echo base_url(); ?>assets/img/avatar9.jpg?1404026744" alt="" />
 						</div>
 						<div class="tile-text">
 							Ann Laurens
@@ -48,7 +48,7 @@
 				<li class="tile">
 					<a class="tile-content ink-reaction" href="#offcanvas-chat" data-toggle="offcanvas" data-backdrop="false">
 						<div class="tile-icon">
-							<img src="<?php echo base_url(); ?>/assets/img/avatar2.jpg?1404026449" alt="" />
+							<img src="<?php echo base_url(); ?>assets/img/avatar2.jpg?1404026449" alt="" />
 						</div>
 						<div class="tile-text">
 							Jessica Cruise
@@ -59,7 +59,7 @@
 				<li class="tile">
 					<a class="tile-content ink-reaction" href="#offcanvas-chat" data-toggle="offcanvas" data-backdrop="false">
 						<div class="tile-icon">
-							<img src="<?php echo base_url(); ?>/assets/img/avatar8.jpg?1404026729" alt="" />
+							<img src="<?php echo base_url(); ?>assets/img/avatar8.jpg?1404026729" alt="" />
 						</div>
 						<div class="tile-text">
 							Jim Peters
@@ -75,7 +75,7 @@
 				<li class="tile">
 					<a class="tile-content ink-reaction" href="#offcanvas-chat" data-toggle="offcanvas" data-backdrop="false">
 						<div class="tile-icon">
-							<img src="<?php echo base_url(); ?>/assets/img/avatar5.jpg?1404026513" alt="" />
+							<img src="<?php echo base_url(); ?>assets/img/avatar5.jpg?1404026513" alt="" />
 						</div>
 						<div class="tile-text">
 							Mabel Logan
@@ -86,7 +86,7 @@
 				<li class="tile">
 					<a class="tile-content ink-reaction" href="#offcanvas-chat" data-toggle="offcanvas" data-backdrop="false">
 						<div class="tile-icon">
-							<img src="<?php echo base_url(); ?>/assets/img/avatar11.jpg?1404026774" alt="" />
+							<img src="<?php echo base_url(); ?>assets/img/avatar11.jpg?1404026774" alt="" />
 						</div>
 						<div class="tile-text">
 							Mary Peterson
@@ -97,7 +97,7 @@
 				<li class="tile">
 					<a class="tile-content ink-reaction" href="#offcanvas-chat" data-toggle="offcanvas" data-backdrop="false">
 						<div class="tile-icon">
-							<img src="<?php echo base_url(); ?>/assets/img/avatar3.jpg?1404026799" alt="" />
+							<img src="<?php echo base_url(); ?>assets/img/avatar3.jpg?1404026799" alt="" />
 						</div>
 						<div class="tile-text">
 							Mike Alba
@@ -113,7 +113,7 @@
 				<li class="tile">
 					<a class="tile-content ink-reaction" href="#offcanvas-chat" data-toggle="offcanvas" data-backdrop="false">
 						<div class="tile-icon">
-							<img src="<?php echo base_url(); ?>/assets/img/avatar6.jpg?1404026572" alt="" />
+							<img src="<?php echo base_url(); ?>assets/img/avatar6.jpg?1404026572" alt="" />
 						</div>
 						<div class="tile-text">
 							Nathan Peterson
@@ -129,7 +129,7 @@
 				<li class="tile">
 					<a class="tile-content ink-reaction" href="#offcanvas-chat" data-toggle="offcanvas" data-backdrop="false">
 						<div class="tile-icon">
-							<img src="<?php echo base_url(); ?>/assets/img/avatar7.jpg?1404026721" alt="" />
+							<img src="<?php echo base_url(); ?>assets/img/avatar7.jpg?1404026721" alt="" />
 						</div>
 						<div class="tile-text">
 							Philip Ericsson
@@ -145,7 +145,7 @@
 				<li class="tile">
 					<a class="tile-content ink-reaction" href="#offcanvas-chat" data-toggle="offcanvas" data-backdrop="false">
 						<div class="tile-icon">
-							<img src="<?php echo base_url(); ?>/assets/img/avatar10.jpg?1404026762" alt="" />
+							<img src="<?php echo base_url(); ?>assets/img/avatar10.jpg?1404026762" alt="" />
 						</div>
 						<div class="tile-text">
 							Samuel Parsons
@@ -181,7 +181,7 @@
 			<ul class="list-chats">
 				<li>
 					<div class="chat">
-						<div class="chat-avatar"><img class="img-circle" src="<?php echo base_url(); ?>/assets/img/avatar1.jpg?1403934956" alt="" /></div>
+						<div class="chat-avatar"><img class="img-circle" src="<?php echo base_url(); ?>assets/img/avatar1.jpg?1403934956" alt="" /></div>
 						<div class="chat-body">
 							Yes, it is indeed very beautiful.
 							<small>10:03 pm</small>
@@ -190,7 +190,7 @@
 				</li>
 				<li class="chat-left">
 					<div class="chat">
-						<div class="chat-avatar"><img class="img-circle" src="<?php echo base_url(); ?>/assets/img/avatar9.jpg?1404026744" alt="" /></div>
+						<div class="chat-avatar"><img class="img-circle" src="<?php echo base_url(); ?>assets/img/avatar9.jpg?1404026744" alt="" /></div>
 						<div class="chat-body">
 							Did you see the changes?
 							<small>10:02 pm</small>
@@ -199,7 +199,7 @@
 				</li>
 				<li>
 					<div class="chat">
-						<div class="chat-avatar"><img class="img-circle" src="<?php echo base_url(); ?>/assets/img/avatar1.jpg?1403934956" alt="" /></div>
+						<div class="chat-avatar"><img class="img-circle" src="<?php echo base_url(); ?>assets/img/avatar1.jpg?1403934956" alt="" /></div>
 						<div class="chat-body">
 							I just arrived at work, it was quite busy.
 							<small>06:44pm</small>
@@ -212,7 +212,7 @@
 				</li>
 				<li class="chat-left">
 					<div class="chat">
-						<div class="chat-avatar"><img class="img-circle" src="<?php echo base_url(); ?>/assets/img/avatar9.jpg?1404026744" alt="" /></div>
+						<div class="chat-avatar"><img class="img-circle" src="<?php echo base_url(); ?>assets/img/avatar9.jpg?1404026744" alt="" /></div>
 						<div class="chat-body">
 							The colors are much better now.
 						</div>
@@ -226,7 +226,7 @@
 				</li>
 				<li>
 					<div class="chat">
-						<div class="chat-avatar"><img class="img-circle" src="<?php echo base_url(); ?>/assets/img/avatar1.jpg?1403934956" alt="" /></div>
+						<div class="chat-avatar"><img class="img-circle" src="<?php echo base_url(); ?>assets/img/avatar1.jpg?1403934956" alt="" /></div>
 						<div class="chat-body">
 							Are the colors of the logo already adapted?
 							<small>Last week</small>
@@ -245,33 +245,38 @@
 <!-- END BASE -->
 
 <!-- BEGIN JAVASCRIPT -->
-<script src="<?php echo base_url(); ?>/assets/js/libs/jquery/jquery-1.11.2.min.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/jquery/jquery-migrate-1.2.1.min.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/bootstrap/bootstrap.min.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/spin.js/spin.min.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/autosize/jquery.autosize.min.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/moment/moment.min.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/flot/jquery.flot.min.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/flot/jquery.flot.time.min.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/flot/jquery.flot.resize.min.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/flot/jquery.flot.orderBars.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/flot/jquery.flot.pie.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/flot/curvedLines.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/jquery-knob/jquery.knob.min.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/sparkline/jquery.sparkline.min.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/nanoscroller/jquery.nanoscroller.min.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/d3/d3.min.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/d3/d3.v3.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/libs/rickshaw/rickshaw.min.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/core/source/App.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/core/source/AppNavigation.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/core/source/AppOffcanvas.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/core/source/AppCard.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/core/source/AppForm.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/core/source/AppNavSearch.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/core/source/AppVendor.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/core/demo/Demo.js"></script>
-<script src="<?php echo base_url(); ?>/assets/js/core/demo/DemoDashboard.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/jquery/jquery-1.11.2.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/jquery/jquery-migrate-1.2.1.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/bootstrap/bootstrap.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/spin.js/spin.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/autosize/jquery.autosize.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/moment/moment.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/flot/jquery.flot.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/flot/jquery.flot.time.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/flot/jquery.flot.resize.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/flot/jquery.flot.orderBars.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/flot/jquery.flot.pie.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/flot/curvedLines.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/jquery-knob/jquery.knob.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/sparkline/jquery.sparkline.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/nanoscroller/jquery.nanoscroller.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/d3/d3.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/d3/d3.v3.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/rickshaw/rickshaw.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/core/source/App.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/core/source/AppNavigation.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/core/source/AppOffcanvas.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/core/source/AppCard.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/core/source/AppForm.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/core/source/AppNavSearch.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/core/source/AppVendor.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/core/demo/Demo.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/core/demo/DemoDashboard.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/jquery/jquery-1.11.2.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/DataTables/jquery.dataTables.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/DataTables/extensions/ColVis/js/dataTables.colVis.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/libs/DataTables/extensions/TableTools/js/dataTables.tableTools.min.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/core/demo/DemoTableDynamic.js"></script>
 <!-- END JAVASCRIPT -->
 
 </body>

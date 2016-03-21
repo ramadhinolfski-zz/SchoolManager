@@ -22,5 +22,9 @@
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/libs/utils/html5shiv.js?1403934957"></script>
 		<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/libs/utils/respond.min.js?1403934956"></script>
+		
+		<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/theme-default/libs/DataTables/jquery.dataTables.css?1423553989" />
+		<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/theme-default/libs/DataTables/extensions/dataTables.colVis.css?1423553990" />
+		<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>assets/css/theme-default/libs/DataTables/extensions/dataTables.tableTools.css?1423553990" />
 
 	</head>
