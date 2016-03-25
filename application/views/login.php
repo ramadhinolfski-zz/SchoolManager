@@ -33,13 +33,13 @@
 				<div class="card-body tab-content">
 					<!-- login form -->
 					<div class="tab-pane active" id="login">
-						<form action="#" class="form col-md-12 floating-label" role="form">
+						<form method="POST" action="postLogin" class="form col-md-12 floating-label" role="form" onsubmit="return cekform();">
 							<div class="form-group">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-user fa-lg"></i></span>
 									<div class="input-group-content">
-										<input type="text" class="form-control" id="amount1">
-										<label for="amount1">username</label>
+										<input type="text" class="form-control" id="username" name="username">
+										<label for="username">username</label>
 									</div>
 								</div>
 							</div>
@@ -47,14 +47,14 @@
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-lock fa-lg"></i></span>
 									<div class="input-group-content">
-										<input type="password" class="form-control" id="amount2">
-										<label for="amount2">password</label>
+										<input type="password" class="form-control" id="password" name="password">
+										<label for="password">password</label>
 										<p class="help-block"><a href="#">Forgotten?</a></p>
 									</div>
 								</div>
 							</div>
 							<div class="form-group" align="right">
-								<button type="button" class="btn ink-reaction btn-raised btn-primary">login <i class="fa fa-send fa-fw"></i></button>
+								<button type="submit" class="btn ink-reaction btn-raised btn-primary">login <i class="fa fa-send fa-fw"></i></button>
 							</div>
 						</form>
 					</div>
