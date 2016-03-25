@@ -33,12 +33,12 @@
 				<div class="card-body tab-content">
 					<!-- login form -->
 					<div class="tab-pane active" id="login">
-						<form method="POST" action="postLogin" class="form col-md-12 floating-label" role="form" onsubmit="return cekform();">
+						<form method="POST" action="login/postLogin" class="form col-md-12 floating-label" role="form">
 							<div class="form-group">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-user fa-lg"></i></span>
 									<div class="input-group-content">
-										<input type="text" class="form-control" id="username" name="username">
+										<input type="text" class="form-control" id="username" name="username" required>
 										<label for="username">username</label>
 									</div>
 								</div>
@@ -47,7 +47,7 @@
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-lock fa-lg"></i></span>
 									<div class="input-group-content">
-										<input type="password" class="form-control" id="password" name="password">
+										<input type="password" class="form-control" id="password" name="password" required>
 										<label for="password">password</label>
 										<p class="help-block"><a href="#">Forgotten?</a></p>
 									</div>
