@@ -15,11 +15,11 @@ class Model_login extends CI_Model {
 				$sess = array(	'username'	=> $row->username);
 
 				$this->session->set_userdata($sess);
-				redirect('../dashboard');
+				redirect('dashboard');
 			}
 		} else {
 			$this->session->set_flashdata('info','username atau password salah');
-			redirect('../login');
+			redirect('login');
 		}
 	}
 
