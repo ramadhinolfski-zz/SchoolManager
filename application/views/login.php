@@ -33,7 +33,7 @@
 				<div class="card-body tab-content">
 					<!-- login form -->
 					<div class="tab-pane active" id="login">
-						<form method="POST" action="login/postLogin" class="form col-md-12 floating-label" role="form">
+						<form method="POST" action="Login/getlogin" class="form col-md-12 floating-label" role="form">
 							<div class="form-group">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-user fa-lg"></i></span>
