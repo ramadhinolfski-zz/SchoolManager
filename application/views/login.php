@@ -18,10 +18,16 @@
 </header>
 <!-- END HEADER-->
 
+
+
+
 <!-- BEGIN CONTENT -->
 <div id="content">
 	<section>
 		<div class="section-body contain-sm">
+		<!-- Warning gagal login -->
+<?php $info = $this->session->flashdata('info'); if (!empty($info)) { echo '<div class="alert alert-danger" role="alert"><strong>Warning!!</strong> '.$info.'</div>';} ?>
+		<!-- Batas warning -->
 			<div class="col-sm-3"></div>
 			<div class="card card-underline col-sm-6">
 				<div class="card-head  tabs-primary-dark">

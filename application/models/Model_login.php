@@ -18,7 +18,7 @@ class Model_login extends CI_Model {
 				redirect('dashboard');
 			}
 		} else {
-			$this->session->set_flashdata('info','username atau password salah');
+			$this->session->set_flashdata('info','Username or password is wrong!');
 			redirect('login');
 		}
 	}
