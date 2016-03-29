@@ -1,3 +1,4 @@
+<title>SManager | Login</title>
 <!-- BEGIN HEADER-->
 <header id="header" >
 	<div class="headerbar">
@@ -73,7 +74,7 @@
 							<div class="form-group">
 								<div class="input-group col-sm-12">
 									<div class="input-group-content">
-										<input type="text" class="form-control" id="amount2" required="">
+										<input type="text" class="form-control" id="amount2" required>
 										<label for="amount2">User Name</label>
 									</div>
 								</div>
@@ -81,7 +82,7 @@
 							<div class="form-group">
 								<div class="input-group col-sm-12">
 									<div class="input-group-content">
-										<input type="password" class="form-control" id="amount3" required="">
+										<input type="password" class="form-control" id="amount3" required>
 										<label for="amount2">Password</label>
 									</div>
 								</div>
