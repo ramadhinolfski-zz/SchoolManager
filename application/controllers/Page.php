@@ -5,10 +5,17 @@ class Page extends CI_Controller {
 
 	public function index()
 	{
+		$this->load->view('layout/head');
 		$this->load->view('layout/header');
-		$this->load->view('layout/aside');
+		$this->load->view('layout/menu');
 		$this->load->view('page');
-		$this->load->view('layout/footer');
+		$this->load->view('layout/foot');
+	}
+
+	function LihatInstruktur()
+	{
+		$this->load->model('KoneksiInstruktur');
+		$data['query']=$this->KoneksiInstruktur->LihatInstruktur;
 	}
 
 }

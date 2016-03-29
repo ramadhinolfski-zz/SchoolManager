@@ -5,10 +5,12 @@ class Error404 extends CI_Controller {
 
 	public function index()
 	{
+		$this->load->view('layout/head');
 		$this->load->view('404');
+		$this->load->view('layout/foot');
 	}
 
 }
 
-/* End of file 404.php */
-/* Location: ./application/controllers/404.php */
+/* End of file Error404.php */
+/* Location: ./application/controllers/Error404.php */
